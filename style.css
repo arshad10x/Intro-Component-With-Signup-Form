@@ -1,0 +1,162 @@
+:root {
+  --Red: hsl(0, 100%, 74%); 
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --Dark-Blue: hsl(249, 10%, 26%);
+  --Grayish-Blue: hsl(246, 25%, 77%);
+}
+
+body {
+  background-color: var(--Red);
+  background-image: url("../images/bg-intro-desktop.png");
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  min-height: 90vh;
+  margin: 75px 90px 5px;
+}
+
+h1 {
+  font-family: 'Poppins Bold', sans-serif;
+  color: white;
+  font-size: 50px;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  font-family: 'Poppins Regular', sans-serif;
+}
+
+div {
+  display: block;
+}
+
+.upper-section {
+  display: flex;
+}
+
+.header-section {
+  width: 50%;
+  padding: 100px 20px 20px;
+}
+
+.header-section p {
+  color: white;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px 20px 40px;
+}
+
+.promotion {
+  height: 30px;
+  width: 524px;
+  background-color: var(--Blue);
+  padding: 10px;
+  border-radius: 5%;
+  margin: 0 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promotion p {
+  color: var(--Grayish-Blue);
+}
+
+.promotion-text-highlight {
+  font-family: 'Poppins Semi-bold', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: inherit;
+  background-color: white;
+  border-radius: 2.5%;
+  padding: 20px;
+  width: 500px;
+}
+
+form div {
+  padding: 10px 0 10px;
+}
+
+input {
+  height: 30px;
+  margin: 0 5px 0;
+  padding: 10px 30px 10px;
+  width: 85%;
+}
+
+input::placeholder {
+  color: var(--Dark-Blue);
+  font-weight: bold;
+}
+
+.input-invalid{
+  border: 2px solid var(--Red);
+  background: url(../images/icon-error.svg) no-repeat;
+  background-position: 430px center;
+}
+
+.input-invalid::placeholder {
+  color: transparent;
+}
+
+.input-invalid-email {
+  border: 2px solid var(--Red);
+  background: url(../images/icon-error.svg) no-repeat;
+  background-position: 430px center;
+}
+
+.input-invalid-email::placeholder {
+  color: var(--Red);
+}
+
+form p {
+  height: 10px;
+  margin: 5px 5px 0;
+}
+
+.error-invalid {
+  color: var(--Red);
+  justify-content: end;
+  text-align: right;
+  font-style:italic; 
+  font-size: 12px;
+}
+
+button {
+  height: 50px;
+  margin: 10px 0 10px;
+  background-color: var(--Green);
+  padding: 10px;
+  color: white;
+}
+
+button:hover {
+  border: white;
+}
+
+.form-term {
+  color: var(--Grayish-Blue);
+  text-align: center;
+}
+
+.term-link {
+  color: var(--Red);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
