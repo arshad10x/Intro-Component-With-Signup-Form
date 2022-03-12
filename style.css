@@ -138,6 +138,7 @@ button {
   padding: 10px;
   color: white;
   outline:none;
+  border:none;
 }
 
 button:hover {
