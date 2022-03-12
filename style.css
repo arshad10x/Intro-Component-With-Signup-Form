@@ -137,11 +137,11 @@ button {
   background-color: var(--Green);
   padding: 10px;
   color: white;
-  cursor:pointer;
 }
 
 button:hover {
   border: white;
+  cursor: pointer;
 }
 
 .form-term {
