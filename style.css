@@ -137,6 +137,7 @@ button {
   background-color: var(--Green);
   padding: 10px;
   color: white;
+  outline:none;
 }
 
 button:hover {
