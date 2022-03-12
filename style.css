@@ -137,7 +137,7 @@ button {
   background-color: var(--Green);
   padding: 10px;
   color: white;
-  courser:pointer;
+  cursor:pointer;
 }
 
 button:hover {
